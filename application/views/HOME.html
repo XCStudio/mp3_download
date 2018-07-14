@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Fontawesome-->
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/github-button.css"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<!-- Main component for a primary marketing message or call to action -->
+     <div class="jumbotron">
+			<div class="container">
+				<div class="hidden-xs hidden-sm col-md-4 col-lg-4 pull-left">
+					<img vspace="20" class="jumbotronwidth" alt="" src="assets/images/ci-logo-big.png">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+					<h1>CodeIgniter Rocks</h1>
+					<p>CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need
+						a simple and elegant toolkit to create full-featured web applications.</p>
+
+					<div class="row text-left">
+						<span class="github-btn github-btn-large">
+			<a class="gh-btn" href="https://github.com/bcit-ci/CodeIgniter" target="_blank" rel="noopener noreferrer">
+				<i class="fa fa-github"></i>
+				<span class="gh-text">Star</span>
+			</a>
+			<a class="gh-count" href="https://github.com/bcit-ci/CodeIgniter/stargazers" target="_blank" rel="noopener noreferrer">
+				16,303
+			</a>
+		</span>
+		<span class="github-btn github-btn-large">
+			<a class="gh-btn" href="https://github.com/bcit-ci/CodeIgniter" target="_blank" rel="noopener noreferrer">
+				<i class="fa fa-code-fork"></i>
+				<span class="gh-text">Fork</span>
+			</a>
+			<a class="gh-count" href="https://github.com/bcit-ci/CodeIgniter/network" target="_blank" rel="noopener noreferrer">
+				7,447
+			</a>
+		</span>
+
+						<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 176px; height: 28px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.7a5ca036ea5299f1d2ebb2234731e35e.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=CodeIgniter&amp;show_count=true&amp;show_screen_name=false&amp;size=l&amp;time=1531554817313" data-screen-name="CodeIgniter"></iframe>    
+					</div>
+				</div>
+			</div>
+	</div>
+	
+	<div class="container">
+		<form>
+		  <div class="form-group">
+			<label for="exampleInputEmail1">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+			<label for="exampleInputPassword1">Password</label>
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="form-group">
+			<label for="exampleInputFile">File input</label>
+			<input type="file" id="exampleInputFile">
+			<p class="help-block">Example block-level help text here.</p>
+		  </div>
+		  <div class="checkbox">
+			<label>
+			  <input type="checkbox"> Check me out
+			</label>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+
+	<div class="footer">
+			<div class="footer-menu">
+				<div class="container">
+					<div class="row bcit50">
+						<ul class="nav nav-pills">
+							
+						<li class=""><a href="/help">Policies</a></li>
+
+						<li class=""><a href="/help/legal">The Fine Print</a></li>
+
+						<li class=""><a href="/help/about">About</a></li>
+
+
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="row">
+
+						<p class="text-center">CodeIgniter was created by <a href="https://www.ellislab.com/">EllisLab</a> 
+							and is now a project of the <a href="http://www.bcit.ca/cas/computing/">British Columbia Institute of Technology</a>
+							<a href="mailto:jim_parry@bcit.ca"><span class="glyphicon glyphicon-envelope"></span></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
