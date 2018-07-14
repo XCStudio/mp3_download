@@ -18,13 +18,28 @@ class Site extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+public function __construct()
+{
+	parent::__construct();
+	$this->load->library('Layouts');
+}
+
 	public function home()
 	{
-		$this->load->view('home');
+		$this->layouts->set_title('Home');
+		$this->layouts->add_include('css/init.css')
+		->add_include('css/button.css');
+		$this->layouts->view('home');
 	}
 
 	public function news()
 	{
-		$this->load->view('news');
+		$title = 'News';
+		$this->layouts->set_title($title);
+		$this->layouts->add_include('css/init.css')
+		->add_include('css/button.css');
+		$data['title'] = $title;
+		$this->layouts->view('news', $data);
 	}
 }
