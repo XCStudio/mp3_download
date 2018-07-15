@@ -14,10 +14,10 @@
         <div id="navbar" class="navbar-collapse collapse">
 
             <ul class="nav navbar-nav navbar-right">
-                <li <? if ($this->uri->segment(2) == 'home') { echo 'class="active"';} ?>><a href="<?= base_url('site/home') ?>">Home</a></li>
-                <li <? if ($this->uri->segment(2) == 'news') { echo 'class="active"';} ?>><a href="<?= base_url('site/news')?>">News</a></li>
-                <li <? if ($this->uri->segment(2) == 'faq') { echo 'class="active"';} ?>><a href="#">FAQ</a></li>
-                <li <? if ($this->uri->segment(2) == 'about') { echo 'class="active"';} ?>><a href="about.html">DMCA</a></li>
+                <li <?php if ($this->uri->segment(2) == 'home') { echo 'class="active"';} ?>><a href="<?= base_url('site/home') ?>">Home</a></li>
+                <li <?php if ($this->uri->segment(2) == 'news') { echo 'class="active"';} ?>><a href="<?= base_url('site/news')?>">News</a></li>
+                <li <?php if ($this->uri->segment(2) == 'faq') { echo 'class="active"';} ?>><a href="#">FAQ</a></li>
+                <li <?php if ($this->uri->segment(2) == 'about') { echo 'class="active"';} ?>><a href="about.html">DMCA</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
